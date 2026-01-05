@@ -120,6 +120,8 @@ iText (PDF generation)
 
 HTML / CSS / JavaScript
 
+---
+
 Apache Tomcat
 🎯 Learning Outcomes
 
@@ -137,6 +139,12 @@ MySQL + JDBC integration
 
 Making a production-ready Java web application
 
+---
+### All java files aare located here
+
+https://github.com/Smriti-bot/Student-Management-System/tree/main/src/main/java/com/yourorg/sms
+
+---
 📝 Conclusion
 
 The Student Management System is a complete, functional Java web application suitable for college submission, portfolio, and real-world learning.

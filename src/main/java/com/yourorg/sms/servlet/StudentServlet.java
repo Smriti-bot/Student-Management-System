@@ -105,7 +105,7 @@ public class StudentServlet extends HttpServlet {
                 LOGGER.log(Level.WARNING, "Invalid id for delete: {0}", idParam);
             }
         }
-        // Redirect to list so servlet sets totalStudents again
+        // Redirect to the list so servlet sets totalStudents again
         resp.sendRedirect(req.getContextPath() + "/students?msg=Student+deleted");
     }
 

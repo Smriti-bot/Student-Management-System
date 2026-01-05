@@ -131,7 +131,7 @@ public class StudentDAO {
     }
 
 
-    // ---------- MAP RESULTSET TO OBJECT ---------- //
+    // ------ MAP RESULTSET TO OBJECT -------//
 
     private Student mapRow(ResultSet rs) throws SQLException {
         return new Student(

@@ -106,7 +106,7 @@ public class ReportServlet extends HttpServlet {
 
             document.add(table);
         } catch (DocumentException de) {
-            throw new IOException("Error creating PDF: " + de.getMessage(), de);
+            throw new IOException("Error Creating PDF: " + de.getMessage(), de);
         } finally {
             document.close();
         }

@@ -5,10 +5,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.*;
 import java.io.IOException;
 
-/**
- * Simple auth filter: allows /login, static resources and the root.
- * All other requests require a session attribute "user".
- */
+
 @WebFilter("/*")
 public class AuthFilter implements Filter {
 
